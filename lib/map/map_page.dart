@@ -6,7 +6,6 @@ import 'package:flutterosm/base/mvvm/base.dart';
 import 'package:flutterosm/base/mvvm/common.dart';
 import 'package:flutterosm/map/vm/map_page_vm.dart';
 import 'page/map_page_widget.dart';
-
 class MapPageView extends StatelessWidget with BaseView<MapPageVM> {
   MapPageVM mVm;
   ValueNotifier<String> vnTime = ValueNotifier("暂无");
